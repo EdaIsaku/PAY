@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { COLORS } from "../theme";
+import { COLORS, SIZES } from "../theme";
 
 export const Balance = () => {
   return (
@@ -16,13 +16,13 @@ export const Balance = () => {
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: "center",
     alignItems: "center",
+    justifyContent: "center",
   },
   balanceTitle: {
     color: COLORS.gray,
     fontSize: 18,
-    paddingBottom: 8,
+    paddingBottom: SIZES.padding,
   },
   balanceText: {
     color: COLORS.white,

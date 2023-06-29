@@ -5,3 +5,13 @@ export const COLORS = {
   gray: "#ccc",
   white: "#ffffff",
 };
+
+export const SIZES = {
+  sm: 12,
+  md: 15,
+  lg: 20,
+  xl: 30,
+
+  padding: 10,
+  margin: 10,
+};
